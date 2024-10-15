@@ -3,12 +3,12 @@ from matplotlib import pyplot as plt
 
 # Ausgabe ist unten!
 print("1.1.1 Wie konnen auf einfachem Weg die Zahlen von 100 bis 200 erzeugt werden?")
-a1 = np.arange(100,201)
+a1 = np.arange(100, 201)
 print(a1)
 print()
 
 print("1.1.2 Wie konnen die Zahlen 100 bis 200 mit Abstand 2 (also 100, 102, 104,..) erzeugt werden?")
-a2 = np.arange(100,201,2)
+a2 = np.arange(100, 201, 2)
 print(a2)
 print()
 
@@ -62,12 +62,12 @@ print(b15)
 print()
 
 print("2.2 In welchem Bereich liegen die mittleren 95%? Welche Werte sind das die ausserhalb liegen?")
-b2 = np.mean(a4) - np.std(a4)*2, np.mean(a4) + np.std(a4)*2
+b2 = np.mean(a4) - np.std(a4) * 2, np.mean(a4) + np.std(a4) * 2
 print(b2)
 print()
 
 print("2.3 Alle Zahlen mit 100 multiplizieren")
-b3 = a4*100
+b3 = a4 * 100
 print(b3)
 print()
 
