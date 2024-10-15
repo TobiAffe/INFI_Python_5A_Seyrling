@@ -67,7 +67,7 @@ snow = d[:,-1]
 max_snow = []
 for i in last_10_years:
     snow_year = snow[year == i]
-    max_snow.append(np.nanmax(snow_year))
+    max_snow.append(np.max(snow_year))
 
 plt.bar(last_10_years, mean_temps)
 plt.title("1.5 Max Snow Depth")
