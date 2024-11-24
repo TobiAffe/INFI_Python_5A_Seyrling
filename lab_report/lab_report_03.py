@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-import tabulate as tabulate
+from tabulate import tabulate
 
 df = pd.read_excel('data/winter_tourism.xlsx')
 
@@ -45,3 +45,11 @@ print(df[['Gemnr', 'x2000']])
 
 # Tabulate
 print(tabulate(df, headers=df.columns))
+
+# 2. Erste Auswertung
+# 2.1 Wachstum darstellen
+b_i = df[df.Bez == 'I']
+c2 = b_i[df.columns[3:]].values[0,:]
+print(tabulate(b_i, headers=b_i.columns))
+
+
