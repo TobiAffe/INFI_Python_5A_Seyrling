@@ -1,0 +1,10 @@
+Projektbeschreibung – Magier trifft Spieler
+
+In meinem Projekt steuert man eine Figur durch ein kleines Spiel.
+Wenn man sich einem Magier nähert, beginnt er, ein Rätsel zu erzählen.
+Die Rätsel werden von einem KI-Modell namens gemma:2b erzeugt, das über Ollama
+eingebunden ist.
+
+Das Spiel ist mit Pygame gemacht, und die KI läuft im Hintergrund, damit alles
+flüssig bleibt. Ziel des Projekts war es, eine KI kreativ in ein
+Python-Spiel einzubauen.
